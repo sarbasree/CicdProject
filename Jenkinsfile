@@ -22,7 +22,7 @@ pipeline {
       	}
 	  
         
-        stage('Build and Pubat') {
+        stage('Build and push image') {
 			options {
 				skipDefaultCheckout true;
 			}
